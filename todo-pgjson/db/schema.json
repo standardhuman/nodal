@@ -1,0 +1,24 @@
+{
+
+  "migration_id": 2016060921172314,
+
+  "models": {
+
+    "Todo": {
+
+      "table": "todos",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "user_id", "type": "int", "properties": {}},
+        {"name": "tasks", "type": "json", "properties": {}},
+        {"name": "done", "type": "boolean", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    }
+
+  }
+
+}

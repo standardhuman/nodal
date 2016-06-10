@@ -1,0 +1,25 @@
+{
+
+  "development": {
+    "Todo": [
+      {
+        "user_id" : "1",
+        "done" : "false",
+        "tasks" : {"grapes":"7","bananas":"4","apples":"3"}
+      }
+    ]
+  },
+
+  "test": {
+    "Todo": [
+      {
+        "user_id" : "1",
+        "done" : "false",
+        "tasks" : {"grapes":"7","bananas":"4","apples":"3"}
+      }
+    ]
+  },
+
+  "production": {}
+
+}
